@@ -7,5 +7,20 @@ class carro:
         self.modelo = modelo
         self.año = año
 
-        
+
+    def informacion(self):
+        print(f"El vehiculo que elegiste es un {self.marca}, modelo {self.modelo}, año {self.año} ")
+    
+
+    
+carro1 = carro("Ford","Fiesta","2005")
+
+carro1.informacion()
+
+
+
+
+
+
+
         
