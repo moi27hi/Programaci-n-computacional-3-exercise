@@ -14,8 +14,13 @@ class carro:
 
     
 carro1 = carro("Ford","Fiesta","2005")
+carro2 = carro("Toyota","Hilux","2024")
 
 carro1.informacion()
+carro2.informacion()
+
+
+
 
 
 
